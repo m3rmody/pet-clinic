@@ -2,9 +2,11 @@ package mermody.springframework.petclinic.services.map;
 
 import mermody.springframework.petclinic.model.Owner;
 import mermody.springframework.petclinic.services.OwnerService;
+import org.springframework.stereotype.Service;
 
 import java.util.Set;
 
+@Service
 public class OwnerServiceMap extends AbstractMapService<Owner,Long> implements OwnerService {
     @Override
     public Set<Owner> findAll() {
