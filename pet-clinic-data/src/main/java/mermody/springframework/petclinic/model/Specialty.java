@@ -1,6 +1,6 @@
 package mermody.springframework.petclinic.model;
 
-public class Specialty extends BaseEntity{
+public class Specialty extends BaseEntity {
 
     private String description;
 
